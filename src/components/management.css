@@ -1,0 +1,119 @@
+.management-container {
+    display: flex;
+    gap: 10px;
+    margin: 20px 80px;
+  }
+  
+  .manage {
+    /* color: #00008b; */
+    color: #7E57A7;
+    font-size: 34px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+  .management-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    width: 50%;
+    margin: 10px auto;
+    transition: transform 0.3s ease;
+    border: 5px solid transparent;
+    border-width: 20%;
+  }
+  
+  .management-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .management-image {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+  }
+  
+  .management-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+ 
+  
+  .management-details h3 {
+    font-size: 20px;
+    color: #7E57A7;
+  }
+  
+  .border-content {
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 10px 0;
+    width: 20%;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #eff2f8;
+    color: #333;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .social-icons span:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.1);
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .management-container {
+      flex-direction: column;
+      margin: 20px;
+    }
+  
+    .management-card {
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+    }
+  
+    .management-image {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .management-details h3 {
+      font-size: 18px;
+    }
+  
+    .border-content {
+      width: 40%;
+    }
+  
+    .social-icons span {
+      width: 25px;
+      height: 25px;
+      font-size: 14px;
+    }
+  }
+  

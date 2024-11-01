@@ -1,0 +1,135 @@
+.container {
+    max-width: 1150px;
+    margin: 20px auto;
+    overflow: hidden;
+    padding: 4px 16px;
+  }
+  
+  .content-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-top: 5px;
+  }
+  
+  @media (min-width: 1024px) {
+    .content-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  /* Form Section */
+  .form-section {
+    padding: 32px 16px;
+    border-bottom: 2px solid #ccc;
+    border-right: 0;
+  }
+  
+  @media (min-width: 1024px) {
+    .form-section {
+      padding: 10px 70px;
+      border-right: 2px solid #ccc;
+      border-bottom: none;
+    }
+  }
+  
+  .form-heading {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #FF7A00;
+    margin-bottom: 20px;
+  }
+  
+  .form-subheading {
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    padding-bottom: 16px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .input-field,
+  .textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    height: 40px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field:focus,
+  .textarea:focus {
+    border-color: #FF7A00;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #FF7A00;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #7E57A7;
+  }
+  
+  /* Card Section */
+  .card-section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  .card {
+    padding: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .card:hover {
+    border-color: #FF7A00;
+    transform: scale(1.05);
+  }
+  
+  .card-title {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .card-text {
+    color: #666;
+  }
+  
+  .call-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #FF7A00;
+    transition: color 0.3s ease;
+  }
+  
+  .call-link:hover {
+    color: #4b4bc9;
+    text-decoration: underline;
+  }  

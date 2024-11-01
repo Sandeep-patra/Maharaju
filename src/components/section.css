@@ -1,0 +1,111 @@
+.section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: start;
+    margin: 20px 10px;
+}
+.section h3 {
+    color: #00008B;
+    font-size: 25px;
+}
+
+.section div img {
+    height: 600px;
+    width: 100%;
+    border-radius: 7px;
+    object-fit: cover;
+}
+
+h3 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.content-container {
+    margin: 30px 0;
+    padding: 20px;
+}
+
+.icon-container {
+    margin: 20px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.icon-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 15px 25px;
+    border-radius: 7px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.icon-container div:hover {
+    background-color: #00008B;
+    color: white;
+}
+
+.section-content {
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.count-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.count-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd; /* Border around the section */
+    padding: 20px;
+}
+
+.count {
+    text-align: center;
+    margin: 0 15px; /* Space between count items */
+}
+
+.count div {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.count div:nth-child(2) {
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+    .section {
+        grid-template-columns: 1fr;
+    }
+
+    .icon-container {
+        flex-wrap: wrap;
+    }
+
+    .icon-container div {
+        flex: 1 1 calc(100% - 20px);
+    }
+
+    .count-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .count {
+        margin-bottom: 15px;
+    }
+}

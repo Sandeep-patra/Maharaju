@@ -1,0 +1,45 @@
+.footer {
+    background-color: #181d38;
+    color: white;
+    padding: 30px 60px;
+
+}
+.content {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    border-bottom: 0.5px solid rgb(127, 117, 117);
+    padding-bottom: 40px;
+}
+.heading {
+    font-weight: bold;
+    font-size: 20px;
+}
+.border1 {
+    border: 2px solid white;
+    width: 60px;
+}
+.fa-brands {
+    margin-right: 10px;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.f-content  {
+    text-align: center;
+}
+
+@media screen and (max-width : 768px ){
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+    .f-content {
+        align-items: center;
+    }
+    .heading {
+        margin-top: 10px;
+    }
+    .f-content  {
+        margin: 0;
+    }
+}
