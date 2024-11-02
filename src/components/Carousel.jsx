@@ -9,21 +9,21 @@ function CarouselSection() {
                 <div className="carousel-item active">
                     <img className="d-block w-100" src="sss.avif" alt="First slide" />
                     <div className="carousel-content">
-                        <h1>Welcome To Maharaju <span className='health'>Healthcare</span></h1>
+                        <h1>Welcome To Maharaju Healthcare</h1>
                         <div>Maharaju Health care can help you build better applications using the open source framework</div>
                     </div>
                 </div>
                 <div className="carousel-item">
                     <img className="d-block w-100" src="secondc.jpg" alt="Second slide" />
                     <div className="carousel-content">
-                        <h1>Welcome To Maharaju <span className='health'>Healthcare</span></h1>
+                        <h1>Welcome To Maharaju Healthcare</h1>
                         <div>Maharaju Health care can help you build better applications using the open source framework</div>
                     </div>
                 </div>
                 <div className="carousel-item">
                     <img className="d-block w-100" src="thirdc.jpg" alt="Third slide" />
                     <div className="carousel-content">
-                        <h1>Welcome To Maharaju <span className='health'>Healthcare</span></h1>
+                        <h1>Welcome To Maharaju Healthcare</h1>
                         <div>Maharaju Health care can help you build better applications using the open source framework</div>
                     </div>
                 </div>

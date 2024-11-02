@@ -1,0 +1,93 @@
+.four-cards-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.four-cards-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.four-cards-grid {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.four-card {
+    padding: 16px;
+    border-radius: 8px;
+    color: white;
+    transition: opacity 0.7s ease, transform 0.7s ease;
+    transform: translateY(20px);
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+}
+
+.four-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.four-card-bg-orange {
+    background-color: #f97316;
+}
+
+.four-card-bg-blue {
+    background-color: #3b82f6;
+}
+
+.four-card-bg-pink {
+    background-color: #ec4899;
+}
+
+.four-card-bg-red {
+    background-color: #ef4444;
+}
+
+.four-card-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.four-card-content {
+    margin-bottom: 16px;
+    font-size: 1rem;
+}
+
+.four-card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 0 0 8px 8px;
+}
+
+.four-card:hover {
+    background-color: #7c3aed;
+    transition: background-color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .four-cards-title {
+        font-size: 1.5rem;
+    }
+    
+    .four-card {
+        display: block;
+    }
+
+    .four-card-title {
+        font-size: 1rem;
+    }
+
+    .four-card-content {
+        font-size: 0.875rem;
+    }
+}

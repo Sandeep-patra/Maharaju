@@ -33,7 +33,7 @@ function Header() {
                     <div><Link to='/marketing'>Marketing</Link></div>
                     <div><Link to='/services'>Services</Link></div>
                     <div><Link to='/careers'>Careers</Link></div>
-                    <div><Link to='/careers'>About Us</Link></div>
+                    <div><Link to='/about'>About Us</Link></div>
                     <div><Link to='/contact'>Contact Us</Link></div>
                 </div>
             </div>

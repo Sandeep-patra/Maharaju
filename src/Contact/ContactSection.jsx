@@ -49,7 +49,7 @@ export default function ContactSection() {
           </div>
 
           <a href="tel:+1234567890" className="call-link" data-aos="fade-up">
-            <h1>Call Now</h1>
+            <h3>Call Now</h3>
             <span>→</span>
           </a>
 

@@ -120,16 +120,20 @@
   
   .call-link {
     display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 8px;
-    font-size: 1.125rem;
-    font-weight: 600;
+    align-items: center;
+    font-size: 1rem;
     color: #FF7A00;
     transition: color 0.3s ease;
+  }
+
+  .call-link h3 {
+    color: #FF7A00;
   }
   
   .call-link:hover {
     color: #4b4bc9;
-    text-decoration: underline;
+  }  
+  .call-link:hover h3 {
+    color: #4b4bc9;
   }  

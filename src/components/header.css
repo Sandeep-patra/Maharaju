@@ -103,11 +103,7 @@
 
 .carousel-item {
     position: relative;
-    overflow: hidden; /* Ensures the overlay stays within bounds */
-}
-
-.health {
-    color: #7E57A7;
+    overflow: hidden;
 }
 
 .carousel-item::before {
